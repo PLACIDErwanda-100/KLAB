@@ -1,0 +1,18 @@
+
+.main_work{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.main_work img{
+    margin-left: 20px;
+    border-radius: 10px;
+}
+p i{
+margin-left: 600px;
+color: white;
+font-size: 35px;
+font-style:normal;
+}

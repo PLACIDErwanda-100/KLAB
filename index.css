@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(30, 29, 66, 1);
+   height:auto;
+}
+.nav{
+background-color: rgba(30, 29, 66, 1);
+ margin-top: -55px;
+ height: 50px;
+ position: sticky;
+ top: 0;
+}
+.nav_list ul{
+    top: 0;
+    position: sticky;
+    margin-left: 270px;  
+}
+.nav_list ul li,a{
+    color: white;
+    float: left;
+    display: inline;
+    margin-left: 35px;
+    padding: 10px;
+    margin-top: -20px;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 5px;
+    
+}
+.links li a{
+    text-decoration: none;
+    position: relative;
+}
+
+.links li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: rgb(242, 56, 56);
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    transition: 0.5s;
+}
+.links li a:hover::after{
+    width: 100%;
+}
+
+#code-icon{
+    margin-top: 20px;
+    margin-left: 120px;
+    font-size: 45px;
+    color: black;
+}
+.tap-content span{
+color: rgb(196, 59, 59);
+font-style: normal;
+font-size: 20px;
+}
+.tap-content{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.tap-link{
+    font-size: 20px;
+    text-decoration: none;
+    display: inline;
+    position: relative;
+}
+.tap-link::after{
+    width: 0%;
+    height: 3px;
+    content: '';
+    left: 0;
+    background: rgb(242, 56, 56);
+    transition: 0.5s;
+    bottom: -1px;
+    position: absolute;
+}
+.tap-link:hover::after{
+    width: 100%;
+    
+}
+.name{
+    color: white;
+    font-size: 30px;
+    margin-top: 53px;
+    margin-left: 20px;
+}
+.name span{
+    color: rgba(241, 20, 20, 1);
+}
+.pragraph{
+    margin-top: 20%;
+    color: white;
+    margin-left: 80px;
+    line-height: 2;
+    font-size: 20px;
+}
+.pragraph span{
+    color: rgba(241, 20, 20, 1);
+}
+.middle_part{
+    float: left;
+    display: flex;
+}
+.my_photo{
+    margin-left: 600px;   
+}
+.my_photo img{
+    border-radius: 40px;
+}
+/* the css for about page*/
+.layer2{
+    color: white;
+    margin-left: 20px;
+}
+#external_link{
+   
+    font-size: 30px;
+    border-radius: 50%;
+    border: 10px solid white;
+    background-color: white;
+    color: black;
+    transition: 0.9s;
+}
+#external_link:hover{
+       border: 10px solid rgba(251, 141, 141, 1);;
+    background-color: rgba(251, 141, 141, 1);;
+    color: black;
+}
+.see-button{
+    background-color: rgba(30, 29, 66, 1);
+    justify-content: center;
+    font-size: 20px;
+    border: 2px solid  rgba(251, 141, 141, 1);
+    margin-left: 50%;
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+    transition: 0.6s;
+}
+.see-button:hover{
+    background-color: rgba(251, 141, 141, 1);
+}
+.button-download{
+    background-color: rgba(251, 141, 141, 1);
+    margin-left: -40px;
+   margin-left: 50px;
+   padding: 10px;
+   border-radius: 7px;
+   font-size: 17px;
+   font-family:'Times New Roman';
+}
+/*.......................addition css of portifolio..............*/
+
